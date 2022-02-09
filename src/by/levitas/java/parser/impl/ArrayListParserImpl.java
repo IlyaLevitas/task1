@@ -6,8 +6,9 @@ public class ArrayListParserImpl {
         int[] array = new int[chunks.length];
 
         int i = 0;
-        for (String chunk : chunks)
+        for (String chunk : chunks) {
             array[i++] = Integer.parseInt(chunk);
+        }
 
         return array;
     }
