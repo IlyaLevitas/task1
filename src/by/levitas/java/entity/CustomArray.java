@@ -22,4 +22,9 @@ public class CustomArray {
     public void setArr(int[] arr) {
         this.array = arr;
     }
+
+    public String ArrToString() {
+        String result = Arrays.toString(array);
+        return result;
+    }
 }

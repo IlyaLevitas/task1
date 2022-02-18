@@ -24,7 +24,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
@@ -46,7 +46,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
@@ -68,7 +68,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
@@ -90,7 +90,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
@@ -112,7 +112,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
@@ -134,7 +134,7 @@ public class ArrayArithmeticServiceImplTest {
             LineReaderImpl lineReader = new LineReaderImpl();
             ArrayListParserImpl arrayListParser = new ArrayListParserImpl();
 
-            ArrayList<String> temp = lineReader.readFile("file/txt/info.txt");
+            ArrayList<String> temp = lineReader.readFile("src/by/levitas/resources/txt/info.txt");
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));

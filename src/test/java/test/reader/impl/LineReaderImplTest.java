@@ -18,7 +18,7 @@ public class LineReaderImplTest {
     public void testReadFile() {
         try {
             LineReaderImpl lineReader = new LineReaderImpl();
-            ArrayList<String> actual = lineReader.readFile("file/txt/testt.txt");
+            ArrayList<String> actual = lineReader.readFile("src/by/levitas/resources/txt/test.txt");
             ArrayList<String> expected = new ArrayList<String>();
             expected.add("1 2 3 4 5222");
             expected.add("adadad");
