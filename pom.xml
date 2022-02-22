@@ -8,14 +8,6 @@
     <artifactId>task1</artifactId>
     <version>1.0</version>
 
-    <build>
-            <resources>
-                <resource>
-                    <directory>src/by/levitas/resources</directory>
-                </resource>
-            </resources>
-    </build>
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
