@@ -26,4 +26,9 @@ public class CustomArray extends AbstractCustomArray {
     public void setArr(int... arr) {
         this.array = arr.clone();
     }
+
+    @Override
+    public String toString() {
+        return array.toString();
+    }
 }
