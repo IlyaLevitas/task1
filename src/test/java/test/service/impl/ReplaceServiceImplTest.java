@@ -28,7 +28,7 @@ public class ReplaceServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int[] actual = replaceService.ReplacePositiveWithZero(customArray.getArr());
             int[] expected = {0, -3, 0, 0, 0, -4};

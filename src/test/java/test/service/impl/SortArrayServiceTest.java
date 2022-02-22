@@ -28,7 +28,7 @@ public class SortArrayServiceTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int[] actual = sortArrayService.selectionSort(customArray.getArr());
             int[] expected = {-4, -3, 1, 4, 5, 42};
@@ -50,7 +50,7 @@ public class SortArrayServiceTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int[] actual = sortArrayService.bubbleSort(customArray.getArr());
             int[] expected = {-4, -3, 1, 4, 5, 42};
@@ -72,7 +72,7 @@ public class SortArrayServiceTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int[] actual = sortArrayService.insertionSort(customArray.getArr());
             int[] expected = {-4, -3, 1, 4, 5, 42};

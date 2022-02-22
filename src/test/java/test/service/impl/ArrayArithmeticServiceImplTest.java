@@ -28,7 +28,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int actual = arrayArithmeticService.getArraySum(customArray.getArr());
             int expected = 45;
@@ -50,7 +50,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             double actual = arrayArithmeticService.getArrayAverage(customArray.getArr());
             double expected = 7.5;
@@ -72,7 +72,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int actual = arrayArithmeticService.getArrayMin(customArray.getArr());
             int expected = -4;
@@ -94,7 +94,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int actual = arrayArithmeticService.getArrayMax(customArray.getArr());
             int expected = 42;
@@ -116,7 +116,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int actual = arrayArithmeticService.getPositiveCount(customArray.getArr());
             int expected = 4;
@@ -138,7 +138,7 @@ public class ArrayArithmeticServiceImplTest {
             int index = 0;
             while(!ValidateString.IsContainOnlyNumbers(temp.get(index))) index++;
             int[] array = arrayListParser.ParseStringToIntArr(temp.get(index));
-            CustomArray customArray = new CustomArray(array);
+            CustomArray customArray = new CustomArray(0, array);
 
             int actual = arrayArithmeticService.getNegativeCount(customArray.getArr());
             int expected = 2;

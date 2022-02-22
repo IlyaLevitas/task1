@@ -1,6 +1,6 @@
 package test.reader.impl;
 
-import exception.CustomException;
+import  exception.CustomException;
 import org.testng.annotations.Test;
 import reader.impl.LineReaderImpl;
 
